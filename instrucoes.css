@@ -1,0 +1,58 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFD1A1, #FF4C42); /* Fundo gradiente pôr do sol */
+}
+
+#main-container {
+    background: #FFF5E4; /* Fundo suave e aconchegante */
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    border: 3px dashed #FF8C42; /* Borda fofa */
+}
+
+h1 {
+    color: #FF6F61;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #FFA07A;
+}
+
+button {
+    background: #FFA07A;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover {
+    background: #FF6F61;
+    transform: scale(1.05);
+}
+
+
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}

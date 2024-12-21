@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Extras</h1>
+        <div id="buttons">
+            <button id="nos">Nós</button>
+            <button id="paravoce">Para você</button>
+            <button id="data">Data</button>
+            <button id="sol">Frases</button>
+            <button id="data">Em breve</button>
+            <button>Em breve</button>
+        </div>
+        <button id="voltar">Voltar</button>
+    </div>
+    <script>
+        const btnNos = document.getElementById("nos");
+        const btnVoltar = document.getElementById("voltar");
+        const btnParaVoce = document.getElementById("paravoce");
+        const btnDatas = document.getElementById("data");
+        const btnEuTeAmo = document.getElementById("euteamo");
+        btnParaVoce.addEventListener("click",()=>{
+            window.location.href = "paravoce.html";
+        })
+        document.getElementById("data").addEventListener("click",()=>{
+            window.location.href = "datas.html";
+        })
+        btnNos.addEventListener("click", ()=>{
+            window.location.href = "nos.html";
+        })
+        btnVoltar.addEventListener("click", ()=>{window.location.href = "index.html"})
+        document.getElementById("sol").addEventListener("click",()=>{
+            window.location.href = "frases.html";
+        })
+    </script>
+</body>
+</html>

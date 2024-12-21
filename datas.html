@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Data</h1>
+        <div id="countdown">
+            <h2>Contagem regressiva para o dia para nos reencontrarmos:</h2>
+            <p id="timer">Carregando...</p>
+        </div>
+        <button id="voltar">Voltar</button>
+    </div>
+    <script>
+        const btnVoltar = document.getElementById("voltar");
+        btnVoltar.addEventListener("click",()=>{
+            window.location.href = "extras.html";
+        })
+    </script>
+    <script src="data.js"></script>
+</body>
+</html>

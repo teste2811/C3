@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionário</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Jogo da Carolline</h1>
+        <div id="options-container">
+            <button id="jogar">Jogar</button>
+            <button id="instrucoes">Instruções</button>
+            <button id="extras">Extras</button>
+        </div>
+    </div>
+    <script>
+        const btnJogar = document.getElementById("jogar");
+        const btnInstrucoes = document.getElementById("instrucoes");
+        const btnExtras = document.getElementById("extras");
+        btnInstrucoes.addEventListener("click",()=>{
+            window.location.href = "instrucoes.html";
+        })
+        btnJogar.addEventListener("click",()=>{
+            window.location.href = "questionario.html";
+        })
+        btnExtras.addEventListener("click",()=>{
+            window.location.href = "extras.html";
+        })
+    </script>
+</body>
+</html>
