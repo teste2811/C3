@@ -1,6 +1,5 @@
 function startDailyCountdown() {
     const phrases = [
-        '"Como eu sou sortudo em ter algo que faz com que dizer adeus seja tão difícil"\n - Ursinho Pooh',
         '"Quando estou com você, sinto que posso fazer qualquer coisa."\n - Enrolados',
         '"Algumas pessoas valem a pena derreter."\n - Frozen',
         '"Eu olhei para você e sabia. Você era meu lar."\n - Procurando Nemo',
