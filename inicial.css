@@ -1,4 +1,4 @@
-/* styles.css */
+/* Estilos gerais */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
@@ -7,18 +7,18 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #FFD1A1, #FF4C42); /* Fundo gradiente pôr do sol */
+    background: linear-gradient(135deg, #FFD1A1, #FF4C42);
 }
 
 #main-container {
-    background: #FFF5E4; /* Fundo suave e aconchegante */
+    background: #FFF5E4;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 25px;
     max-width: 400px;
     width: 90%;
     text-align: center;
-    border: 3px dashed #FF8C42; /* Borda fofa */
+    border: 3px dashed #FF8C42;
 }
 
 h1 {
@@ -48,26 +48,16 @@ button:hover {
     transform: scale(1.05);
 }
 
-#timer {
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-#buttons{
+#buttons {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
-#voltar{
+#voltar {
     margin-top: 20px;
-}
-
-#buttons button{
-    width: 200px;
 }
 
 /* Responsividade */
@@ -75,68 +65,17 @@ button:hover {
     h1 {
         font-size: 1.5em;
     }
-}
 
-.sunset-container {
-    position: relative;
-    width: 100%;
-    height: 60%;
-    overflow: hidden;
-}
-
-/* Sol */
-.sun {
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 150px;
-    background: radial-gradient(circle, #FFD700 60%, #FF4500);
-    border-radius: 50%;
-    box-shadow: 0 0 50px rgba(255, 223, 0, 0.8);
-}
-
-/* Mar com animação de gradiente */
-.sea {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 30%;
-    background: linear-gradient(to bottom, #1A1A7C, #00004F);
-    animation: water-color 6s infinite alternate ease-in-out;
-    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.5) inset;
-}
-
-/* Reflexo do sol no mar */
-.reflection {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 120px;
-    height: 80px;
-    background: radial-gradient(circle, rgba(255, 223, 0, 0.6), rgba(255, 69, 0, 0) 80%);
-    filter: blur(15px);
-    animation: wave 4s infinite ease-in-out;
-}
-
-/* Animação das ondas (reflexo do sol) */
-@keyframes wave {
-    0%, 100% {
-        transform: translateX(-50%) translateY(0);
+    #main-container {
+        padding: 20px;
     }
-    50% {
-        transform: translateX(-70%) translateY(-35px);
-    }
-}
 
-/* Animação do gradiente da água */
-@keyframes water-color {
-    0% {
-        background: linear-gradient(to bottom, #1A1A7C, #00004F);
+    button {
+        padding: 10px;
+        font-size: 0.9em;
     }
-    100% {
-        background: linear-gradient(to bottom, #1A1A7C, #00004F);
+
+    #buttons {
+        grid-template-columns: 1fr;
     }
 }
