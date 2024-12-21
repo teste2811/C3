@@ -15,7 +15,7 @@
             <button id="data">Data</button>
             <button id="sol">Frases</button>
             <button id="palavra">Palavra</button>
-            <button onclick="alert('Essa opção ainda está sendo desenvolvida pelo seu namorado')">Em breve</button>
+            <button id="piada">Piadas</button>
         </div>
         <button id="voltar">Voltar</button>
     </div>
@@ -24,7 +24,7 @@
         const btnVoltar = document.getElementById("voltar");
         const btnParaVoce = document.getElementById("paravoce");
         const btnDatas = document.getElementById("data");
-        const btnEuTeAmo = document.getElementById("euteamo");
+        const btnPiada = document.getElementById("piada");
         btnParaVoce.addEventListener("click",()=>{
             window.location.href = "paravoce.html";
         })
@@ -40,6 +40,9 @@
         })
         document.getElementById("palavra").addEventListener("click",()=>{
             window.location.href = "palavra.html";
+        })
+        btnPiada.addEventListener("click",()=>{
+            window.location.href = "piadas.html";
         })
     </script>
 </body>

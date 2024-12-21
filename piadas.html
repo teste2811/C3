@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolline</title>
+    <link rel="stylesheet" href="inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Piadas</h1>
+        <p>Uma piada por dia<p>
+        <div id="countdown-container">
+            <audio id="audio" controls>
+                <source src="" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+            <p style="font-size: medium;" id="timer">Carregando contagem regressiva...</p>
+            <div id="audio-rating-container">
+                <div id="rating">
+                    <label for="rating-input">Dê sua nota (0 a 10):</label>
+                    <input type="number" id="rating-input" step="0.1" min="0" max="10" value="5.0">
+                    <button id="submit-rating">Enviar Nota</button>
+                </div>
+                <button id="voltar">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        const btnVoltar = document.getElementById("voltar");
+        btnVoltar.addEventListener("click",()=>{
+            window.location.href = "extras.html";
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="piada.js"></script>
+
+</body>
+</html>
