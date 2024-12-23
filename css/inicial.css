@@ -11,6 +11,8 @@ body {
 
 #main-container {
     background: #FFF5E4;
+    display: flex;
+    flex-direction: column;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     padding: 25px;
