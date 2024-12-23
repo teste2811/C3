@@ -1,0 +1,111 @@
+body {
+    font-family:Arial, cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #FFD1A1, #FF4C42);
+}
+
+#main-container {
+    background: #FFF5E4;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    border: 3px dashed #FF8C42;
+}
+
+h1 {
+    color: #FF6F61;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #FFA07A;
+}
+
+button {
+    background: #FFA07A;
+    color: white;
+    padding: 12px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background 0.3s;
+    width: 100%; /* Garante que os botões ocupem a mesma largura do input */
+    box-sizing: border-box; /* Inclui bordas e preenchimento no cálculo da largura */
+}
+
+button:hover {
+    background: #FF6F61;
+    transform: scale(1.05);
+}
+
+#audio-player audio {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#rating {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1em;
+    color: #FF8C42;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    font-size: 1em;
+    margin-bottom: 10px;
+    border: 1px solid #FF8C42;
+    border-radius: 12px;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+
+#voltar {
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    #main-container {
+        padding: 20px;
+    }
+
+    button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    #buttons {
+        grid-template-columns: 1fr;
+    }
+}

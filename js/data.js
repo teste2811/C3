@@ -1,6 +1,6 @@
 function startCountdown() {
     // Data-alvo: 5 de janeiro de 2024 às 00:00:00 no horário local
-    const targetDate = new Date("2025-01-05T00:00:00").getTime();
+    const targetDate = new Date("2025-01-06T00:00:00").getTime();
 
     function updateCountdown() {
         const now = new Date().getTime(); // Data atual

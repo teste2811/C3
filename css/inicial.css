@@ -18,6 +18,8 @@ body {
     width: 90%;
     text-align: center;
     border: 3px dashed #FF8C42;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -83,6 +85,48 @@ input[type="number"] {
     align-items: center;
     justify-content: center;
 }
+
+.carta-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px; /* Certifique-se de que o textarea respeita esse limite */
+    width: 90%;
+    overflow: hidden; /* Impede que o conteúdo ultrapasse */
+    box-sizing: border-box; /* Inclui padding no cálculo do tamanho total */
+  }
+  
+  .carta-input {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px; /* Ajuste o tamanho para um estilo agradável */
+    line-height: 1.5;
+    width: calc(100% - 30px); /* Reduz a largura em relação ao padding */
+    height: 300px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: repeating-linear-gradient(
+      white,
+      white 28px,
+      #e0e0e0 30px
+    );
+    outline: none;
+    resize: none;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Inclui padding no cálculo da largura */
+  }
+  
+  .carta-input::placeholder {
+    color: #a0a0a0;
+    font-style: italic;
+  }
+
+#enviar{
+    margin-top: 30px;
+}
+  
 
 #voltar {
     margin-top: 20px;

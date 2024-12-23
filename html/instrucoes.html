@@ -4,23 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questionário</title>
-    <link rel="stylesheet" href="inicial.css">
+    <link rel="stylesheet" href="/css/inicial.css">
 </head>
 <body>
     <div id="main-container">
-        <h1>Data</h1>
-        <div id="countdown">
-            <h2>Contagem regressiva para o dia para nos reencontrarmos:</h2>
-            <p id="timer">Carregando...</p>
-        </div>
+        <h1>Instruções</h1>
+        <h2>Esse jogo contém 10 questões acerca de nós. <br>Cada questão vale um ponto e após clicar em uma opção de resposta, você avançará para a próxima questão independente se a questão estiver certa ou não. No final do questionário, aparecerá a pontuação total.</h2>
         <button id="voltar">Voltar</button>
     </div>
     <script>
         const btnVoltar = document.getElementById("voltar");
         btnVoltar.addEventListener("click",()=>{
-            window.location.href = "extras.html";
+            window.location.href = "index.html";
         })
     </script>
-    <script src="data.js"></script>
 </body>
 </html>

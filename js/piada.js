@@ -2,78 +2,78 @@ function startDailyCountdown(){
     const piadas = [
     {
         titulo: "Matutos e merda",
-        url:"piadas/matuto e merda.m4a",
+        url:"/piadas/matuto e merda.m4a",
         id:"0"
     },
     {
         titulo: "Brasileiro, alemão e argentino capturados",
-        url:"piadas/alemão, brasileiro e Argentina capturados.m4a",
+        url:"/piadas/alemão, brasileiro e Argentina capturados.m4a",
         id:"2"
     },
     {
         titulo: "Jesus ta te olhando",
-        url:"piadas/jesus tá te olhando.m4a",
+        url:"/piadas/jesus tá te olhando.m4a",
         id:"1"
     },
     {
         titulo: "Titanic",
-        url:"piadas/titanic.m4a",
+        url:"/piadas/titanic.m4a",
         id:"3"
     
     },
     {
         titulo: "Arara",
-        url:"piadas/arara.m4a",
+        url:"/piadas/arara.m4a",
         id:"4"
     },
     {
         titulo: "texas",
-        url:"piadas/texas.m4a",
+        url:"/piadas/texas.m4a",
         id:"5"
     },
     {
         titulo: "papagaio ligador",
-        url:"piadas/papagaio ligador.m4a",
+        url:"/piadas/papagaio ligador.m4a",
         id:"6"
     },
     {
         titulo: "mosquito depressivo",
-        url:"piadas/mosquito depressivo.m4a",
+        url:"/piadas/mosquito depressivo.m4a",
         id:"7"
     },
     {
         titulo: "mega sena",
-        url:"piadas/mega sena.m4a",
+        url:"/piadas/mega sena.m4a",
         id:"8"
     },
     {
         titulo: "pedra na vara",
-        url:"piadas/pedra na vara.m4a",
+        url:"/piadas/pedra na vara.m4a",
         id:"9"
     },
     {
         titulo: "zoologico",
-        url:"piadas/zoologico.m4a",
+        url:"/piadas/zoologico.m4a",
         id:"10"
     },
     {
         titulo:"sommelier de bebida",
-        url:"piadas/sommelier de bebida.m4a",
+        url:"/piadas/sommelier de bebida.m4a",
         id:"11"
     },
     {
         titulo: "pastor alemao",
-        url:"piadas/pastor alemao.m4a",
+        url:"/piadas/pastor alemao.m4a",
         id:"12"
     },
     {
         titulo: "papagaio no aviao",
-        url:"piadas/papagaio no aviao.m4a",
+        url:"/piadas/papagaio no aviao.m4a",
         id:"13"
     },
     {
         titulo:"papagaio bilingue",
-        url:"piadas/papagaio bilingue.m4a",
+        url:"/piadas/papagaio bilingue.m4a",
         id:"14"
     }]
     
