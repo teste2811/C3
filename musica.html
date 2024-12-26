@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carolline</title>
+    <link rel="stylesheet" href="/css/inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Música</h1>
+        <p>Uma frase de uma música todo dia<p>
+        <div id="countdown-container">
+            <p id="phrase">Carregando frase e música...<p>
+            <iframe style="border-radius:12px" id="musica" src="" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <p style="font-size: medium;" id="timer">Carregando contagem regressiva...</p>
+        </div>
+        <button id="voltar">Voltar</button>
+    </div>
+    <script>
+        const btnVoltar = document.getElementById("voltar");
+        btnVoltar.addEventListener("click",()=>{
+            window.location.href = "extras.html";
+        })
+    </script>
+    <script src="/js/musica.js"></script>
+</body>
+</html>
