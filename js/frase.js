@@ -5,7 +5,7 @@ function startDailyCountdown() {
         '"Algumas pessoas valem a pena derreter."\n - Frozen',
         '"Eu olhei para você e sabia. Você era meu lar."\n - Procurando Nemo',
         '"O amor é a única coisa que podemos sentir que transcende tempo e espaço."\n - Interestelar',
-        '"Você não precisa procurar além do seu próprio coração para encontrar o que é real."\n - O Rei Leão 2',
+        '"O maior presente de todos não está debaixo da árvore, mas ao nosso lado."\n - Um Herói de Brinquedo (1996)',
         '"Eu te escolho. E vou te escolher sempre. Sem pausa, sem dúvida, num piscar de olhos."\n - Pokémon: O Filme',
         '"O amor é colocar as necessidades de alguém à frente das suas."\n - Frozen',
         '"Eu te amo. Eu sou quem eu sou por sua causa. Você é toda razão, toda esperança e todo sonho que eu já tive."\n - Diário de uma paixão',
