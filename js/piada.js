@@ -79,7 +79,7 @@ function startDailyCountdown(){
     
     function updatePhrase() {
         const now = new Date();
-        const startDate = new Date("2024-12-20T22:00:00"); // Horário inicial às 22:00
+        const startDate = new Date("2024-12-20T21:10:00"); // Horário inicial às 22:00
         const timeSinceStart = now - startDate;
     
         // Número de dias considerando o horário das 22:00 como início de cada dia
@@ -95,7 +95,7 @@ function startDailyCountdown(){
         const now = new Date();
     
         // Calcula a próxima ocorrência das 22:00
-        let nextUpdate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 22, 0, 0);
+        let nextUpdate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 22, 10, 0);
         if (now.getHours() >= 22) {
             // Se já passou das 22:00, considera o próximo dia
             nextUpdate.setDate(nextUpdate.getDate() + 1);
