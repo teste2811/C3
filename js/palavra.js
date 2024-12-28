@@ -20,7 +20,7 @@ function startDailyCountdown() {
 
     function updatePhrase() {
         const today = new Date();
-        const startDate = new Date("2024-12-19T22:00:00"); // Atualizado para 22:00
+        const startDate = new Date("2024-12-19T21:10:00"); // Atualizado para 22:00
         const daysSinceStart = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
         const phraseIndex = daysSinceStart % phrases.length; 
         document.getElementById("phrase").innerText = phrases[phraseIndex];
@@ -28,7 +28,7 @@ function startDailyCountdown() {
     
     function updateCountdown() {
         const now = new Date();
-        const nextUpdate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 22, 0, 0); // Atualizado para 22:00
+        const nextUpdate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 10, 0); // Atualizado para 22:00
     
         // Se já passou das 22:00, define a próxima atualização para o dia seguinte
         if (now >= nextUpdate) {
