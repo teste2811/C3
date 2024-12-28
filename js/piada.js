@@ -96,7 +96,7 @@ function startDailyCountdown(){
     
         // Calcula a próxima ocorrência das 22:00
         let nextUpdate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 21, 10, 0);
-        if (now.getHours() >= 21 and now.getMinutes()>=10) {
+        if (now.getHours() >= 21 && now.getMinutes()>=10) {
             // Se já passou das 22:00, considera o próximo dia
             nextUpdate.setDate(nextUpdate.getDate() + 1);
         }
