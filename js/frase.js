@@ -10,7 +10,7 @@ function startDailyCountdown() {
         '"O amor é colocar as necessidades de alguém à frente das suas."\n - Frozen',
         '"Eu te amo. Eu sou quem eu sou por sua causa. Você é toda razão, toda esperança e todo sonho que eu já tive."\n - Diário de uma paixão',
         '"O amor não é encontrar alguém com quem viver. É encontrar alguém sem o qual não se pode viver."\n - Diário de uma paixão',
-        '"O amor verdadeiro é quando você dá à outra pessoa o poder de destruí-lo, mas confia que ela não fará isso."\n - Shrek',
+        '"Você faz com que tudo pareça possível. Você é meu milagre."\n - A Bela e a Fera',
         '"Ame profundamente. O amor sempre encontra um caminho."\n - Irmão Urso',
         '"O coração é uma bússola que sempre nos guia de volta ao lar, especialmente quando o lar é uma pessoa."\n - Moana',
         '"Meu coração pertence a você, agora e para sempre."\n - Tarzan',
