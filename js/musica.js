@@ -17,6 +17,10 @@ function startDailyCountdown(){
         url:"https://open.spotify.com/embed/track/0lGOYi4wZiVc1arJJ4do0a?utm_source=generator"
     },
     {
+        frase: '"Meu amor, eu te prometo a cada momento te fazer feliz. Meu amor, eu agradeço pra sempre o dia que eu te conheci"',
+        url:"https://open.spotify.com/embed/track/3yiXy2ydZP9ZpsYxvUI6sO?utm_source=generator"
+    },
+    {
         frase: '"Estar apaixonado é uma coisa louca, que alguém lhe causa e você mal dorme, se perto desse alguém a eternidade é pouca, distante, cada instante é um tempo enorme"',
         url:"https://open.spotify.com/embed/track/6e1R7lS7yojUz4gcCCW8Po?utm_source=generator"
     
