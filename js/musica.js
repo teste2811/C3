@@ -26,8 +26,8 @@ function startDailyCountdown(){
     
     },
     {
-        frase: '"Meu amor, eu te prometo a cada momento te fazer feliz. Meu amor, eu agradeço pra sempre o dia que eu te conheci"',
-        url:"https://open.spotify.com/embed/track/3yiXy2ydZP9ZpsYxvUI6sO?utm_source=generator"
+        frase: '"Eu tô com uma vontade danada de te entregar todos os beijos que eu não te dei. E eu tô com uma saudade apertada de ir dormir cansado e acordar ao teu lado pra dizer que te amo"',
+        url:"https://open.spotify.com/embed/track/6hFKP7kl22184msxWDhXLL?utm_source=generator"
     },
     {
         frase: '"Vou sentar de frente ao tempo e ver tua pele ao tempo enrugar, te sentir cada segundo e te eternizar"',
