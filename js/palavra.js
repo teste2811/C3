@@ -1,6 +1,7 @@
 function startDailyCountdown() {
     const phrases = [
-        'Carolline, obrigado por exisitr na minha vida. Eu nunca senti nada igual. Meu coração amaVocê.',
+        'Carolline, obrigado por exisitr na minha vida. Eu nunca senti nada igual. Meu coração ama',
+        'Carolline, obrigado por exisitr na minha vida. Eu nunca senti nada igual. Meu coração ama você!',
         'Carolline,',
         'Carolline, obrigado',
         'Carolline, obrigado por',
@@ -20,7 +21,7 @@ function startDailyCountdown() {
 
     function updatePhrase() {
         const today = new Date();
-        const startDate = new Date("2024-12-19T21:10:00"); // Atualizado para 22:00
+        const startDate = new Date("2024-12-18T21:10:00"); // Atualizado para 22:00
         const daysSinceStart = Math.floor((today - startDate) / (1000 * 60 * 60 * 24));
         const phraseIndex = daysSinceStart % phrases.length; 
         document.getElementById("phrase").innerText = phrases[phraseIndex];

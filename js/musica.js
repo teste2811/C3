@@ -1,8 +1,8 @@
 function startDailyCountdown(){
     const musicas = [
     {
-            frase: '"Sempre que agradeço, eu me pergunto se eu mereço ter você perto de mim, e a cada sorriso é a certeza absoluta: Foi você que eu pedi"',
-            url:"https://open.spotify.com/embed/track/2n1Zin11Ns2uXOsUif70GB?utm_source=generator"
+        frase: '"Sempre que agradeço, eu me pergunto se eu mereço ter você perto de mim, e a cada sorriso é a certeza absoluta: Foi você que eu pedi"',
+        url:"https://open.spotify.com/embed/track/2n1Zin11Ns2uXOsUif70GB?utm_source=generator"
     },
     {
         frase: '"Diga pra mim que é real, que eu te prometo meu melhor, fala pra mim o que eu quero ouvir, que tu sentiu o que eu senti"',

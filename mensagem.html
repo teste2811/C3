@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem</title>
+    <link rel="stylesheet" href="/css/inicial.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Mensagem</h1>
+        <p>Se deseja receber no seu email uma frase muito linda escrita pelo seu namorado, coloque seu email abaixo e clique no botão<p>
+        <input type="text" id="rating-input" placeholder="Digite seu email">
+        <button id="enviar">Enviar email</button>
+        <span style="font-size: smaller; color:rgb(1, 109, 109);">Após clicar em enviar email, aguarde um poquinho até aparecer a mensagem dizendo que o email foi enviado</span>
+        <button id="voltar">Voltar</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        const btnVoltar = document.getElementById("voltar");
+        btnVoltar.addEventListener("click",()=>{
+            window.location.href = "extras2.html";
+        })
+        const btnEnviar = document.getElementById("enviar");
+        emailjs.init('QMD1MVrwT1qJWPiL3');
+
+
+        btnEnviar.addEventListener("click", () => {
+        const email = document.getElementById("rating-input").value;
+
+        // Dados a serem enviados pelo EmailJS
+        const templateParams = {
+            email_to: email
+        };
+
+        // Enviar o e-mail usando o serviço e o template configurado
+        emailjs.send("service_vqqxq5c", "template_isrfkcr", templateParams)
+            .then(response => {
+                alert('Email enviado com sucesso!');
+            })
+            .catch(error => {
+                console.error('Erro ao enviar e-mail:', error);
+                alert('Erro ao enviar ao email.');
+            });
+});
+    </script>
+</body>
+</html>

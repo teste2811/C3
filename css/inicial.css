@@ -6,7 +6,24 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(135deg, #FFD1A1, #FF4C42);
+    animation: changeBackground 10s infinite alternate;
+}
+@keyframes changeBackground {
+    0% {
+      background-color: #FF4500; /* Laranja avermelhado */
+    }
+    25% {
+      background-color: #FF7F50; /* Coral */
+    }
+    50% {
+      background-color: #FFD700; /* Amarelo dourado */
+    }
+    75% {
+      background-color: #FF69B4; /* Rosa forte */
+    }
+    100% {
+      background-color: #9370DB; /* Roxo suave */
+    }
 }
 
 #main-container {
@@ -69,7 +86,7 @@ label {
     margin-bottom: 10px;
 }
 
-input[type="number"] {
+input {
     width: 100%;
     box-sizing: border-box;
     height: 40px;
