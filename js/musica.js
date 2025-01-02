@@ -34,8 +34,8 @@ function startDailyCountdown(){
         url:"https://open.spotify.com/embed/track/1pOQA335PsUEYaJ4Q33kjg?utm_source=generator"
     },
     {
-        frase: '"Demorei pra encontrar alguém como você que soube conversar, que soube me entender. Então, fica perto de mim e esse amor nunca vai ter fim"',
-        url:"https://open.spotify.com/embed/track/6hiKXxS7pgPKnKfCU7UJ6O?utm_source=generator"
+        frase: '"Quando fecho meus olhos, sempre posso sentir os seus olhos e seus lábios sorrindo pra mim"',
+        url:"https://open.spotify.com/embed/track/4fg8WPI8JiVml405WiK9z9?utm_source=generator"
     },
     {
         frase: '"Você é assim um sonho pra mim, quero te encher de beijos. Eu penso em você desde o amanhecer até quando eu me deito"',
