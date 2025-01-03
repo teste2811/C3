@@ -38,8 +38,8 @@ function startDailyCountdown(){
         url:"https://open.spotify.com/embed/track/4fg8WPI8JiVml405WiK9z9?utm_source=generator"
     },
     {
-        frase: '"Você é assim um sonho pra mim, quero te encher de beijos. Eu penso em você desde o amanhecer até quando eu me deito"',
-        url:"https://open.spotify.com/embed/track/1mSxbLW7fKABfeY4lGpg0E?utm_source=generator"
+        frase: '"Eu quero partilhar a vida boa com você"',
+        url:"https://open.spotify.com/embed/track/6O6qYUHbLjT0kGHm5rfp95?utm_source=generator"
     },
     {
         frase: '"O que há dentro do meu coração eu tenho guardado pra te dar, e todas as horas que o tempo tem pra me conceder são tuas até morrer"',
